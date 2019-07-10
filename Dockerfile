@@ -46,6 +46,7 @@ ENV PATH=/node/bin:$PATH
 
 RUN npm install -g configurable-http-proxy \
  && pip3 install jupyterhub \
+ && pip3 install jupyter \
  && pip3 install seaborn \
  && pip3 install findspark \
  && pip3 install keras \
